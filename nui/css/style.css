@@ -1,0 +1,30 @@
+@font-face {
+	font-family: fuente;
+	src: url('/nui/fonts/fuente.ttf');
+}
+
+body {
+    display: none;
+}
+
+.container {
+    position: absolute;
+    top: 1vh;
+    left: 42%;
+    width: 30vh;
+    height: 3vh;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px black;
+    border-radius: .5vh;
+}
+
+.text {
+    position: relative;
+    top: .5vh;
+    left: auto;
+    font-family: fuente;
+    text-align: center;
+    color: white;
+    text-shadow: 4px rgb(0, 0, 0);
+    z-index: 3;
+}
