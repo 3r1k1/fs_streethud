@@ -13,6 +13,7 @@ CreateThread(function()
                 inCar = inCar;
                 street = streetName;
             })
+            msec = 750
         end
         Wait(msec)
     end
