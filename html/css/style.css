@@ -1,0 +1,28 @@
+@font-face {
+	font-family: fuente;
+	src: url('../fonts/fuente.ttf');
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: none;
+    position: absolute;
+    top: 1vw;
+    left: 50vw;
+    padding: .3vw;
+    transform: translate(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px black;
+    border-radius: .5vh;
+}
+
+.text {
+    margin-bottom: .1vw;
+    font-family: fuente;
+    text-align: center;
+    color: white;
+    text-shadow: 4px rgb(0, 0, 0);
+}
