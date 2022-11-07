@@ -24,6 +24,9 @@ local function Notification(msg, type, duration)
 	elseif Config.Notification == "okokNotify" then
 		if type == '' or type == nil then type = 'info' end
 		exports['okokNotify']:Alert("", string.gsub(msg, '(~[rbgypcmuonshw]~)', ''), duration, type)
+	elseif Config.Notification == "ox_lib" then
+		if type == '' or type == nil then type = 'inform' end
+        TriggerEvent('ox_lib:notify', {type = type, duration = duration, description = msg})
     elseif Config.Notification == "esx" then
 		ESX.ShowNotification(msg)
 	elseif Config.Notification == "qb" then
