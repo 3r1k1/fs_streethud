@@ -10,6 +10,7 @@ Config = {
 
         'es' (Español / Spanish)
         'en' (Ingles / English)
+        'nl' (Holandés / Dutch)
         'custom' (Custom)
     ]]
     Command = {
@@ -24,6 +25,7 @@ Config = {
         't-notify' -- https://github.com/TasoOneAsia/t-notify
         'mythic_notify' -- https://github.com/wowpanda/mythic_notify
         'okokNotify' -- https://forum.cfx.re/t/okoknotify-standalone-paid/3907758
+        'ox_lib' -- https://github.com/overextended/ox_lib
         'esx' -- Default esx
         'qb' -- Default qbcore
     ]]
@@ -39,6 +41,11 @@ Locales = {
         ['activated_command'] = 'You have enabled the street hud',
         ['desactivated_command'] = 'You have disabled the street hud',
         ['keybind_command'] = 'Disable/enable street hud'
+    },
+    ['nl'] = { -- Dutch locale
+        ['activated_command'] = 'De straat namen zijn geactiveerd.',
+        ['desactivated_command'] = 'De straat namen zijn gedeactiveerd.',
+        ['keybind_command'] = 'Straat namen Activeren/Deactiveren'
     },
     ['custom'] = { -- Custom locale
         ['activated_command'] = '',
