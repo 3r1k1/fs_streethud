@@ -26,6 +26,7 @@ Config = {
         'mythic_notify' -- https://github.com/wowpanda/mythic_notify
         'okokNotify' -- https://forum.cfx.re/t/okoknotify-standalone-paid/3907758
         'ox_lib' -- https://github.com/overextended/ox_lib
+        'skeexsnotify' -- https://github.com/Skeexs/skeexsNotify
         'esx' -- Default esx
         'qb' -- Default qbcore
     ]]
